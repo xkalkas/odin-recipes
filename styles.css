@@ -1,0 +1,35 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Home list styles*/
+.home {
+    padding: 1rem;
+    background: rgba(230, 184, 163, 0.26);
+}
+h1 {
+    background: #90a4ae;
+    margin: -1rem -1rem 1rem -1rem;
+    padding: 1rem;
+}
+
+
+/*Image and hover credits*/
+.foodimg {
+    border: 2px solid black;
+}
+
+.credits {
+  display: none;
+}
+
+.foodimg:hover + .credits {
+  display: block;
+}
+
+
